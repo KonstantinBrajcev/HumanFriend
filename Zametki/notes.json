@@ -72,8 +72,8 @@
         "parent_class": "HomeAnimals"
     },
     {
-        "name": "Horse",
-        "commands": "Horse",
+        "name": "Gvozdik",
+        "commands": "Run, Run, Run",
         "birth_date": "2000-05-05",
         "note_id": 10,
         "animal_type": "Horse",
@@ -104,11 +104,11 @@
         "parent_class": "PackAnimals"
     },
     {
-        "name": "Dralin",
-        "commands": "Work, Sleep",
-        "birth_date": "2020-10-10",
+        "name": "Woow",
+        "commands": "Wow",
+        "birth_date": "2010-10-10",
         "note_id": 15,
-        "animal_type": "Dog",
-        "parent_class": "HomeAnimals"
+        "animal_type": "Donkey",
+        "parent_class": "PackAnimals"
     }
 ]

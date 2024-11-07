@@ -14,4 +14,3 @@ class Note:
     def __str__(self):
         return Print.record(self.note_id, self.name, self.commands,
                             self.birth_date, self.animal_type, self.parent_class)
-    # f"ID: {self.note_id}\t Тип: {self.animal_type}\t Родитель: {self.parent_class}\t Имя: {self.name}\t День рождения: {self.birth_date}\t Умения: {self.commands}"
