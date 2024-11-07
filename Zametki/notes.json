@@ -1,0 +1,106 @@
+[
+    {
+        "name": "Tom",
+        "commands": "Eat",
+        "birth_date": "2024-02-19",
+        "note_id": 1,
+        "animal_type": "Cat",
+        "parent_class": "HomeAnimal"
+    },
+    {
+        "name": "fly",
+        "commands": "Fly, Drive",
+        "birth_date": "2024-05-05",
+        "note_id": 2,
+        "animal_type": "Cat",
+        "parent_class": "HomeAnimals"
+    },
+    {
+        "name": "Fil",
+        "commands": "Sleep",
+        "birth_date": "1983-07-07",
+        "note_id": 3,
+        "animal_type": "Dog",
+        "parent_class": "HomeAnimals"
+    },
+    {
+        "name": "Vova",
+        "commands": "Fly",
+        "birth_date": "1983-07-07",
+        "note_id": 4,
+        "animal_type": "Camel",
+        "parent_class": "PackAnimals"
+    },
+    {
+        "name": "Fl",
+        "commands": "Gly",
+        "birth_date": "1983-10-10",
+        "note_id": 5,
+        "animal_type": "Hamster",
+        "parent_class": "HomeAnimals"
+    },
+    {
+        "name": "Doggi",
+        "commands": "Run",
+        "birth_date": "2000-01-01",
+        "note_id": 6,
+        "animal_type": "Donkey",
+        "parent_class": "PackAnimals"
+    },
+    {
+        "name": "Dog",
+        "commands": "Dog",
+        "birth_date": "2001-01-01",
+        "note_id": 7,
+        "animal_type": "Dog",
+        "parent_class": "HomeAnimals"
+    },
+    {
+        "name": "Cat",
+        "commands": "cat",
+        "birth_date": "2002-02-02",
+        "note_id": 8,
+        "animal_type": "Cat",
+        "parent_class": "HomeAnimals"
+    },
+    {
+        "name": "Feofan",
+        "commands": "Srat, Grat",
+        "birth_date": "2020-10-20",
+        "note_id": 9,
+        "animal_type": "Hamster",
+        "parent_class": "HomeAnimals"
+    },
+    {
+        "name": "Horse",
+        "commands": "Horse",
+        "birth_date": "2000-05-05",
+        "note_id": 10,
+        "animal_type": "Horse",
+        "parent_class": "PackAnimals"
+    },
+    {
+        "name": "Gora",
+        "commands": "Fly, Dry",
+        "birth_date": "2000-01-01",
+        "note_id": 12,
+        "animal_type": "Camel",
+        "parent_class": "PackAnimals"
+    },
+    {
+        "name": "Kolya",
+        "commands": "Dryg, Bug, Mug",
+        "birth_date": "1999-10-14",
+        "note_id": 13,
+        "animal_type": "Camel",
+        "parent_class": "PackAnimals"
+    },
+    {
+        "name": "Fry",
+        "commands": "Add, Dell, Sleep",
+        "birth_date": "2000-10-11",
+        "note_id": 14,
+        "animal_type": "Cat",
+        "parent_class": "HomeAnimals"
+    }
+]
