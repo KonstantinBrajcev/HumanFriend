@@ -1,3 +1,10 @@
+class Print:
+    @staticmethod
+    def record(note_id, name, commands, birth_date, animal_type, parent_class):
+        return (f"ID: {note_id}\t Тип: {animal_type}\t Родитель: {parent_class}\t "
+                f"Имя: {name}\t День рождения: {birth_date}\t Умения: {commands}")
+
+
 def print_none(self, nom):
     print("-------------------------\n",
           f"Животное № {nom} не найдено.")
@@ -11,7 +18,7 @@ def print_all(self, notes):
 
 def print_edit(self, edit_note):
     print("-------------------------\n",
-          f"Обновленная запись: {str(edit_note)}")  # переход на НОТУ+
+          f"--- Обновленная запись: ---\n{str(edit_note)}")  # переход на НОТУ+
 
 
 def print_new(self, max_id, new_note, file_path):

@@ -56,8 +56,8 @@
         "parent_class": "HomeAnimals"
     },
     {
-        "name": "Cat",
-        "commands": "cat",
+        "name": "Tomas",
+        "commands": "Sleep, Sleep, Sleep",
         "birth_date": "2002-02-02",
         "note_id": 8,
         "animal_type": "Cat",
@@ -96,11 +96,19 @@
         "parent_class": "PackAnimals"
     },
     {
-        "name": "Fry",
-        "commands": "Add, Dell, Sleep",
-        "birth_date": "2000-10-11",
+        "name": "Sergey",
+        "commands": "Sleep, stay",
+        "birth_date": "2020-10-01",
         "note_id": 14,
-        "animal_type": "Cat",
+        "animal_type": "Camel",
+        "parent_class": "PackAnimals"
+    },
+    {
+        "name": "Dralin",
+        "commands": "Work, Sleep",
+        "birth_date": "2020-10-10",
+        "note_id": 15,
+        "animal_type": "Dog",
         "parent_class": "HomeAnimals"
     }
 ]

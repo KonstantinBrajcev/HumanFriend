@@ -3,8 +3,10 @@ from Counter import Counter
 import os
 
 os.system('clear')  # Очистка консоли
+file_path = 'notes.json'
+commander = Command(file_path)
+
 while True:
-    file_path = 'notes.json'
     print("-----------МЕНЮ----------",
           "1 -> ДОБАВИТЬ ЖИВОНОЕ",
           "2 -> ВЫВЕСТИ ВСЕХ ЖИВОТНЫХ",
@@ -15,10 +17,8 @@ while True:
           "-------------------------",
           sep='\n')
     command = input("Введите № меню: -> ")
-    commander = Command(file_path)
 
     if command == '1':  # ДОБАВЛЕНИЕ новой записи
-        # commander.add()
         with Counter() as counter:
             try:
                 commander.add(counter)

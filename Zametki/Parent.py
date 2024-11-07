@@ -1,4 +1,5 @@
 from os import name
+from Print import Print
 
 
 class ParentAnimal:
@@ -11,7 +12,10 @@ class ParentAnimal:
         self.note_id = note_id
 
     def __str__(self):
-        return f"ID: {self.note_id}\t Тип: {self.__class__.__name__}\t Родитель: {self.__class__.__bases__[0].__name__}\t Имя: {self.name}\t День рождения: {self.birth_date}\t Умения: {self.commands} ПРЕДОК"
+        return Print.record(self.note_id, self.name, self.commands,
+                            self.birth_date, self.__class__.__name__,
+                            self.__class__.__bases__[0].__name__)
+    # f"ID: {self.note_id}\t Тип: {self.__class__.__name__}\t Родитель: {self.__class__.__bases__[0].__name__}\t Имя: {self.name}\t День рождения: {self.birth_date}\t Умения: {self.commands}"
 
 
 class HomeAnimals(ParentAnimal):
